@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: center;
   display: flex;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -38,6 +39,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Search {
+  display: flex;
+  flex-direction: row;
+  min-width: 368px;
+  width: 30%;
+}
+
+.SearchInput {
+  margin: 8px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 10px 8px;
+  width: 90%;
+}
+
+.SearchIcon {
+  margin: 8px;
+}
+
+.SearchIcon button {
+  border-radius: 8px;
+  box-sizing: border-box;
 }
 
 .UsersList {

@@ -27,6 +27,11 @@
   border-radius: inherit;
 }
 
+.PhoneIcon {
+  margin: 5px 0 8px 5px;
+  height: 31px;
+}
+
 .PhoneLink {
   text-align: left;
   padding: 10px 10px;

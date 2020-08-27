@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./AddressField.css";
 
-import InputField from "./InputField";
+import DisplayField from "./DisplayField";
 
 const AddressField = (props) => {
   const { value, label } = props;
@@ -11,10 +11,10 @@ const AddressField = (props) => {
     <div className="AddressField">
       <label className="AddressLabel">{label}</label>
       <div className="AddressBox">
-        <InputField value={value.street} label="Street" />
-        <InputField value={value.suite} label="Suite" />
-        <InputField value={value.city} label="City" />
-        <InputField value={value.zipcode} label="Zip Code" />
+        <DisplayField value={value.street} label="Street" />
+        <DisplayField value={value.suite} label="Suite" />
+        <DisplayField value={value.city} label="City" />
+        <DisplayField value={value.zipcode} label="Zip Code" />
         <fieldset className="AddressFieldSet" aria-hidden="true">
           <legend className="Legend">
             <span>{label}</span>

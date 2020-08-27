@@ -5,6 +5,10 @@ import "./IconField.css";
 const IconField = (props) => {
   const { type } = props;
 
+  /*
+   * Used heroicons for the SVG icons
+   * https://heroicons.com/
+   */
   const displayIcon =
     type === "name" ? (
       <svg
@@ -12,7 +16,7 @@ const IconField = (props) => {
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
-        height="37px"
+        height="31px"
       >
         <path
           strokeLinecap="round"
@@ -27,7 +31,7 @@ const IconField = (props) => {
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
-        height="37px"
+        height="31px"
       >
         <path
           strokeLinecap="round"
@@ -42,7 +46,7 @@ const IconField = (props) => {
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
-        height="37px"
+        height="31px"
       >
         <path
           strokeLinecap="round"
@@ -57,7 +61,7 @@ const IconField = (props) => {
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
-        height="37px"
+        height="31px"
       >
         <path
           strokeLinecap="round"
@@ -72,7 +76,7 @@ const IconField = (props) => {
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
-        height="37px"
+        height="31px"
       >
         <path
           strokeLinecap="round"
@@ -87,7 +91,7 @@ const IconField = (props) => {
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
-        height="37px"
+        height="31px"
       >
         <path
           strokeLinecap="round"
@@ -102,7 +106,7 @@ const IconField = (props) => {
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
-        height="37px"
+        height="31px"
       >
         <path
           strokeLinecap="round"

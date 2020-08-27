@@ -12,7 +12,9 @@ const PhoneField = (props) => {
   return (
     <div className="PhoneField">
       <div className="PhoneBox">
-        <IconField type="phone" />
+        <div className="PhoneIcon">
+          <IconField type="phone" />
+        </div>
         <a href={link} className="PhoneLink">
           {value}
         </a>
