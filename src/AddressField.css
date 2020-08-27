@@ -1,0 +1,53 @@
+.AddressField {
+  margin: 8px;
+  border: 0;
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  vertical-align: top;
+}
+
+.AddressLabel {
+  transform: translate(14px, -6px) scale(0.75);
+  transform-origin: top left;
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: block;
+  z-index: 1;
+}
+
+.AddressBox {
+  padding: 8px;
+  position: relative;
+  border-radius: 4px;
+  display: inline-flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.AddressFieldSet {
+  top: -5px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0 8px;
+  position: absolute;
+  border-radius: inherit;
+}
+
+.Legend {
+  width: auto;
+  height: 11px;
+  display: block;
+  font-size: 0.75em;
+  text-align: left;
+  visibility: hidden;
+}
+
+.Legend span {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+}

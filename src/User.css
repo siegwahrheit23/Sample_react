@@ -1,0 +1,32 @@
+.UserCard {
+  display: flex;
+  flex-direction: column;
+  min-width: 350px;
+  border: 1px solid #999999;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 8px;
+  padding: 8px;
+}
+
+.UserRow {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.PhoneRow {
+  align-self: flex-end;
+}
+
+.IconDiv {
+  display: inline-flex;
+  flex-direction: column;
+  height: 37px;
+  margin: 8px;
+}
+
+.FieldDiv {
+  display: inline-flex;
+  flex-direction: column;
+  width: 80%;
+}
